@@ -1,26 +1,95 @@
 body {
-  color: 	#9400D3;
+  color:	#505050;
   background-color: #EEEEEE;    /* Light gray */
-  font-family: "Verdana";
+  font-family: "Dubai", sans-serif;;
 }
-p, ul {
-  background-color: #FFE4C4;
+p {
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
 }
 p {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 150px;
     margin-left: 20;
 }
+h2 {
+    margin-top: 20px;
+    margin-right: 150px;
+    margin-left: 20;
+  }
 div {
-  color: 	#9400D3;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   border: 2px
+}
+#bannerimage {
+  width: 100%;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/22/Stockholm_Public_Library_banner.jpg);
+  height: 250px;
+  background-position: center;
+}
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+.button {
+  float: center;
+  color: #FFF;
+  background-color: #FF5733;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
   border-radius: 5px;
+
+  clear: both;
+  width: 200px;
+  margin: 20px auto;
+}
+.button-two {
+  float: center;
+  margin: 20px 1.15%;
+  color: #FFF;
+  background-color: #900C3F;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  clear: both;
+  width: 200px;
+  margin: 20px auto;
+}
+.button-three {
+  float: center;
+  color: #FFF;
+  background-color: #3498DB;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  clear: both;
+  width: 200px;
+  margin: 20px auto;
+}
+.button-four {
+  float: center;
+  color: #FFF;
+  background-color: #884EA0;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  clear: both;
+  width: 200px;
+  margin: 20px auto;
 }
